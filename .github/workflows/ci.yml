@@ -3,8 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - main
-      - master
+      - test-action
   pull_request: {}
   schedule:
     - cron: "0 3 * * 0" # every Sunday at 3am
